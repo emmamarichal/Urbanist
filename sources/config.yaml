@@ -1,5 +1,5 @@
 sources:
-  - Urbanist.glyphspackage
+  - Urbanist.glyphs
 buildOTF: False
 buildWebfont: False
 buildTTF: false
