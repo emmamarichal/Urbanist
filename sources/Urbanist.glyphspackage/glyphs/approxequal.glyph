@@ -1,0 +1,96 @@
+{
+glyphname = approxequal;
+kernLeft = asciitilde;
+kernRight = asciitilde;
+layers = (
+{
+layerId = "10BC12B3-5274-42E3-B5BC-F74F362F0DF4";
+shapes = (
+{
+pos = (0,254);
+ref = asciitilde;
+},
+{
+pos = (0,-204);
+ref = asciitilde;
+}
+);
+width = 1160;
+},
+{
+layerId = "9AF1F7D9-E035-453E-B2A8-46DE370997D0";
+shapes = (
+{
+pos = (0,200);
+ref = asciitilde;
+},
+{
+pos = (0,-158);
+ref = asciitilde;
+}
+);
+width = 1160;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (-112,200);
+ref = asciitilde;
+},
+{
+pos = (-163,-158);
+ref = asciitilde;
+}
+);
+width = 1160;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (-105,254);
+ref = asciitilde;
+},
+{
+pos = (-169,-204);
+ref = asciitilde;
+}
+);
+width = 1160;
+},
+{
+layerId = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
+shapes = (
+{
+alignment = -1;
+pos = (-109,222);
+ref = asciitilde;
+},
+{
+alignment = -1;
+pos = (-165,-176);
+ref = asciitilde;
+}
+);
+width = 1160;
+},
+{
+layerId = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
+shapes = (
+{
+alignment = -1;
+pos = (0,222);
+ref = asciitilde;
+},
+{
+alignment = -1;
+pos = (0,-176);
+ref = asciitilde;
+}
+);
+width = 1160;
+}
+);
+unicode = 8776;
+}

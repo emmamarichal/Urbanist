@@ -1,0 +1,182 @@
+{
+glyphname = fraction;
+kernLeft = frac_digits;
+kernRight = fraction;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = "10BC12B3-5274-42E3-B5BC-F74F362F0DF4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-228,0,l),
+(580,1400,l),
+(378,1400,l),
+(-430,0,l)
+);
+}
+);
+width = 150;
+},
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = "9AF1F7D9-E035-453E-B2A8-46DE370997D0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-294,0,l),
+(514,1400,l),
+(444,1400,l),
+(-364,0,l)
+);
+}
+);
+width = 150;
+},
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-435,0,l),
+(570,1400,l),
+(500,1400,l),
+(-505,0,l)
+);
+}
+);
+width = 150;
+},
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-369,0,l),
+(636,1400,l),
+(434,1400,l),
+(-571,0,l)
+);
+}
+);
+width = 150;
+},
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-409,0,l),
+(596,1400,l),
+(474,1400,l),
+(-531,0,l)
+);
+}
+);
+width = 150;
+},
+{
+hints = (
+{
+horizontal = 1;
+origin = (0,3);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,2);
+target = down;
+type = TopGhost;
+}
+);
+layerId = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-268,0,l),
+(540,1400,l),
+(418,1400,l),
+(-390,0,l)
+);
+}
+);
+width = 150;
+}
+);
+unicode = (8260,8725);
+}

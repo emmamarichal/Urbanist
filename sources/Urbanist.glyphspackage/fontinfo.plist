@@ -1,0 +1,2603 @@
+{
+.appVersion = "3340";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Italic;
+tag = ital;
+}
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Variable Font Origin";
+value = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
+},
+{
+disabled = 1;
+name = "gasp Table";
+value = {
+};
+},
+{
+disabled = 1;
+name = panose;
+value = (
+2,
+11,
+10,
+4,
+4,
+2,
+0,
+0,
+2,
+3
+);
+},
+{
+disabled = 1;
+name = "Export morx Table";
+value = 1;
+},
+{
+disabled = 1;
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
+}
+);
+date = "2020-03-28 06:10:06 +0000";
+familyName = Urbanist;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+languagesystem DFLT MAH;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn MAH;
+languagesystem latn CAT;
+languagesystem latn NLD;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature frac;
+feature ordn;
+feature case;
+feature calt;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language MAH;
+lookup locl_latn_2 {
+	sub Lcommaaccent by Lcommaaccent.loclMAH;
+	sub Ncommaaccent by Ncommaaccent.loclMAH;
+	sub lcommaaccent by lcommaaccent.loclMAH;
+	sub ncommaaccent by ncommaaccent.loclMAH;
+} locl_latn_2;
+
+script latn;
+language CAT;
+lookup locl_latn_3 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_4;
+
+script DFLT;
+language MAH;
+lookup locl_dflt_0 {
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
+} locl_dflt_0;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash eight by oneeighth;
+sub one slash four by onequarter;
+sub three slash eight by threeeighths;
+sub one slash two by onehalf;
+sub five slash eight by fiveeighths;
+sub three slash four by threequarters;
+sub seven slash eight by seveneighths;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub periodcentered.loclCAT by periodcentered.loclCAT.case;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+},
+{
+code = "lookup CATALAN {
+    sub l periodcentered' l by periodcentered.loclCAT;
+    sub L periodcentered' L by periodcentered.loclCAT.case;
+} CATALAN;";
+tag = calt;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100,
+0
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+iconName = Light_SemiExtended;
+id = "9AF1F7D9-E035-453E-B2A8-46DE370997D0";
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+}
+);
+name = Thin;
+stemValues = (
+60,
+60
+);
+visible = 1;
+},
+{
+axesValues = (
+420,
+0
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+id = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+}
+);
+name = Regular;
+stemValues = (
+156,
+156
+);
+},
+{
+axesValues = (
+900,
+0
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+iconName = Bold_SemiExtended;
+id = "10BC12B3-5274-42E3-B5BC-F74F362F0DF4";
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+}
+);
+name = Black;
+stemValues = (
+300,
+300
+);
+visible = 1;
+},
+{
+axesValues = (
+100,
+1
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+iconName = Light_SemiExtended;
+id = m003;
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+pos = 8;
+}
+);
+name = "Thin Italic";
+stemValues = (
+60,
+60
+);
+},
+{
+axesValues = (
+420,
+1
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+id = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+pos = 8;
+}
+);
+name = Italic;
+stemValues = (
+156,
+156
+);
+},
+{
+axesValues = (
+900,
+1
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+},
+{
+name = winAscent;
+value = 2220;
+},
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -500;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winDescent;
+value = 540;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -500;
+},
+{
+name = strikeoutPosition;
+value = 600;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = "prep Table Assembly";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+iconName = Bold_SemiExtended;
+id = m004;
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+over = 27;
+pos = 1400;
+},
+{
+over = 29;
+pos = 1000;
+},
+{
+over = -27;
+},
+{
+over = -31;
+pos = -540;
+},
+{
+pos = 8;
+}
+);
+name = "Black Italic";
+stemValues = (
+300,
+300
+);
+}
+);
+instances = (
+{
+axesValues = (
+100,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+228,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+324,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+420,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = Regular;
+},
+{
+axesValues = (
+504,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+624,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+732,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+828,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+100,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = 100;
+},
+{
+axesValues = (
+228,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = 200;
+},
+{
+axesValues = (
+324,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = 300;
+},
+{
+axesValues = (
+420,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+name = Italic;
+},
+{
+axesValues = (
+504,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = 500;
+},
+{
+axesValues = (
+624,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = 600;
+},
+{
+axesValues = (
+732,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+weightClass = 700;
+},
+{
+axesValues = (
+828,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+1
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
+weightClass = 900;
+}
+);
+kerningLTR = {
+"9AF1F7D9-E035-453E-B2A8-46DE370997D0" = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -140;
+"@MMK_R_W" = -130;
+"@MMK_R_Y" = -100;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 30;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 150;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -170;
+"@MMK_R_w" = -140;
+"@MMK_R_y" = -50;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -60;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -60;
+"@MMK_R_T" = -100;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -80;
+"@MMK_R_J" = -80;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -140;
+"@MMK_R_J" = -190;
+"@MMK_R_O" = -120;
+"@MMK_R_hyphen" = -60;
+"@MMK_R_iwide" = 110;
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -120;
+"@MMK_R_s" = -140;
+"@MMK_R_u" = -120;
+"@MMK_R_w" = -140;
+"@MMK_R_x" = -100;
+"@MMK_R_y" = -140;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -130;
+"@MMK_R_J" = -50;
+"@MMK_R_M" = -60;
+"@MMK_R_iwide" = 80;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -40;
+"@MMK_R_u" = -40;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -100;
+"@MMK_R_J" = -60;
+"@MMK_R_iwide" = 90;
+"@MMK_R_o" = -60;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -50;
+"@MMK_R_u" = -70;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 120;
+"@MMK_R_T" = 140;
+"@MMK_R_W" = 140;
+"@MMK_R_X" = 140;
+"@MMK_R_Y" = 140;
+"@MMK_R_Z" = 140;
+"@MMK_R_asterisk" = 90;
+"@MMK_R_exclam" = 100;
+"@MMK_R_iwide" = 60;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteright" = 110;
+"@MMK_R_quotesingle" = 110;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = 0;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 50;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -30;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -60;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 30;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 30;
+"@MMK_R_T" = 110;
+"@MMK_R_W" = 80;
+"@MMK_R_Y" = 90;
+"@MMK_R_i" = 30;
+"@MMK_R_iwide" = 180;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -70;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -30;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -40;
+"@MMK_R_Y" = -80;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_space" = 0;
+};
+"@MMK_L_r" = {
+"@MMK_R_T" = -60;
+"@MMK_R_f" = 30;
+"@MMK_R_hyphen" = -50;
+"@MMK_R_o" = -70;
+"@MMK_R_period" = -90;
+"@MMK_R_x" = 20;
+"@MMK_R_y" = 20;
+"@MMK_R_z" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -140;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -40;
+"@MMK_R_Y" = -70;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -140;
+"@MMK_R_period" = -60;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -100;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -60;
+"@MMK_R_T" = -140;
+"@MMK_R_period" = -60;
+};
+};
+"6E59A8CF-B173-4F95-974A-A2EBEECFA9BB" = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -152;
+"@MMK_R_W" = -150;
+"@MMK_R_Y" = -128;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -68;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 54;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 206;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -134;
+"@MMK_R_w" = -112;
+"@MMK_R_y" = -54;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -68;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -72;
+"@MMK_R_T" = -80;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -96;
+"@MMK_R_J" = -96;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -152;
+"@MMK_R_J" = -166;
+"@MMK_R_O" = -92;
+"@MMK_R_hyphen" = -76;
+"@MMK_R_iwide" = 126;
+"@MMK_R_n" = -88;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -96;
+"@MMK_R_s" = -108;
+"@MMK_R_u" = -96;
+"@MMK_R_w" = -112;
+"@MMK_R_x" = -76;
+"@MMK_R_y" = -116;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -158;
+"@MMK_R_J" = -90;
+"@MMK_R_M" = -68;
+"@MMK_R_S" = -20;
+"@MMK_R_iwide" = 92;
+"@MMK_R_n" = -16;
+"@MMK_R_o" = -38;
+"@MMK_R_period" = -56;
+"@MMK_R_s" = -24;
+"@MMK_R_u" = -64;
+"@MMK_R_w" = -20;
+"@MMK_R_x" = -20;
+};
+"@MMK_L_X" = {
+"@MMK_R_iwide" = 40;
+"@MMK_R_o" = -8;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -128;
+"@MMK_R_J" = -108;
+"@MMK_R_iwide" = 106;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -76;
+"@MMK_R_period" = -112;
+"@MMK_R_s" = -42;
+"@MMK_R_u" = -74;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -24;
+"@MMK_R_z" = -12;
+};
+"@MMK_L_Z" = {
+"@MMK_R_iwide" = 52;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 168;
+"@MMK_R_T" = 196;
+"@MMK_R_W" = 196;
+"@MMK_R_X" = 196;
+"@MMK_R_Y" = 196;
+"@MMK_R_Z" = 196;
+"@MMK_R_asterisk" = 126;
+"@MMK_R_backslash" = 32;
+"@MMK_R_braceright" = 52;
+"@MMK_R_bracketright" = 88;
+"@MMK_R_exclam" = 140;
+"@MMK_R_iwide" = 36;
+"@MMK_R_parenright" = 88;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteleft" = 52;
+"@MMK_R_quoteright" = 154;
+"@MMK_R_quotesingle" = 154;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = -8;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 38;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -50;
+"@MMK_R_period" = -96;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -76;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 38;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 34;
+"@MMK_R_T" = 126;
+"@MMK_R_W" = 92;
+"@MMK_R_X" = 40;
+"@MMK_R_Y" = 106;
+"@MMK_R_Z" = 52;
+"@MMK_R_i" = 38;
+"@MMK_R_iwide" = 164;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -82;
+"@MMK_R_W" = -24;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -38;
+"@MMK_R_X" = -8;
+"@MMK_R_Y" = -76;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -96;
+"@MMK_R_W" = -56;
+"@MMK_R_Y" = -112;
+"@MMK_R_y" = -84;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_space" = 0;
+};
+"@MMK_L_r" = {
+"@MMK_R_T" = -36;
+"@MMK_R_f" = 46;
+"@MMK_R_hyphen" = -38;
+"@MMK_R_o" = -50;
+"@MMK_R_period" = -94;
+"@MMK_R_x" = 40;
+"@MMK_R_y" = 40;
+"@MMK_R_z" = 40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -108;
+"@MMK_R_W" = -24;
+"@MMK_R_Y" = -48;
+};
+"@MMK_L_taltcaron" = {
+"@MMK_R_H" = 43;
+"@MMK_R_T" = 59;
+"@MMK_R_W" = 59;
+"@MMK_R_X" = 59;
+"@MMK_R_Y" = 59;
+"@MMK_R_Z" = 59;
+"@MMK_R_asterisk" = 20;
+"@MMK_R_exclam" = 27;
+"@MMK_R_quoteright" = 35;
+"@MMK_R_quotesingle" = 35;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -96;
+"@MMK_R_W" = -64;
+"@MMK_R_Y" = -74;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -112;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -24;
+"@MMK_R_period" = -84;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -76;
+"@MMK_R_W" = -20;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -68;
+"@MMK_R_T" = -116;
+"@MMK_R_Y" = -24;
+"@MMK_R_period" = -84;
+};
+"@MMK_L_z" = {
+"@MMK_R_Y" = -12;
+};
+};
+"10BC12B3-5274-42E3-B5BC-F74F362F0DF4" = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -170;
+"@MMK_R_W" = -180;
+"@MMK_R_Y" = -170;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -80;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 90;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 290;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -80;
+"@MMK_R_w" = -70;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -80;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -90;
+"@MMK_R_T" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -120;
+"@MMK_R_J" = -120;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -170;
+"@MMK_R_J" = -130;
+"@MMK_R_O" = -50;
+"@MMK_R_hyphen" = -100;
+"@MMK_R_iwide" = 150;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -60;
+"@MMK_R_s" = -60;
+"@MMK_R_u" = -60;
+"@MMK_R_w" = -70;
+"@MMK_R_x" = -40;
+"@MMK_R_y" = -80;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -200;
+"@MMK_R_J" = -150;
+"@MMK_R_M" = -80;
+"@MMK_R_S" = -50;
+"@MMK_R_iwide" = 110;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -50;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -60;
+"@MMK_R_u" = -100;
+"@MMK_R_w" = -50;
+"@MMK_R_x" = -50;
+};
+"@MMK_L_X" = {
+"@MMK_R_iwide" = 100;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -170;
+"@MMK_R_J" = -180;
+"@MMK_R_iwide" = 130;
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -100;
+"@MMK_R_period" = -160;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -80;
+"@MMK_R_w" = -60;
+"@MMK_R_y" = -60;
+"@MMK_R_z" = -30;
+};
+"@MMK_L_Z" = {
+"@MMK_R_iwide" = 130;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 240;
+"@MMK_R_T" = 280;
+"@MMK_R_W" = 280;
+"@MMK_R_X" = 280;
+"@MMK_R_Y" = 280;
+"@MMK_R_Z" = 280;
+"@MMK_R_asterisk" = 180;
+"@MMK_R_backslash" = 80;
+"@MMK_R_braceright" = 130;
+"@MMK_R_bracketright" = 220;
+"@MMK_R_exclam" = 200;
+"@MMK_R_parenright" = 220;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteleft" = 130;
+"@MMK_R_quoteright" = 220;
+"@MMK_R_quotesingle" = 220;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 20;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -80;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -100;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 50;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 40;
+"@MMK_R_T" = 150;
+"@MMK_R_W" = 110;
+"@MMK_R_X" = 100;
+"@MMK_R_Y" = 130;
+"@MMK_R_Z" = 130;
+"@MMK_R_i" = 50;
+"@MMK_R_iwide" = 140;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -100;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -100;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -50;
+"@MMK_R_X" = -20;
+"@MMK_R_Y" = -100;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -80;
+"@MMK_R_Y" = -160;
+"@MMK_R_y" = -120;
+};
+"@MMK_L_r" = {
+"@MMK_R_f" = 70;
+"@MMK_R_hyphen" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -100;
+"@MMK_R_x" = 70;
+"@MMK_R_y" = 70;
+"@MMK_R_z" = 70;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_taltcaron" = {
+"@MMK_R_H" = 108;
+"@MMK_R_T" = 148;
+"@MMK_R_W" = 148;
+"@MMK_R_X" = 148;
+"@MMK_R_Y" = 148;
+"@MMK_R_Z" = 148;
+"@MMK_R_asterisk" = 50;
+"@MMK_R_exclam" = 68;
+"@MMK_R_quoteright" = 88;
+"@MMK_R_quotesingle" = 88;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -100;
+"@MMK_R_Y" = -80;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -70;
+"@MMK_R_W" = -50;
+"@MMK_R_Y" = -60;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -40;
+"@MMK_R_W" = -50;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -80;
+"@MMK_R_Y" = -60;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_z" = {
+"@MMK_R_Y" = -30;
+};
+};
+m003 = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -140;
+"@MMK_R_W" = -130;
+"@MMK_R_Y" = -100;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 30;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 150;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -170;
+"@MMK_R_w" = -140;
+"@MMK_R_y" = -50;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -60;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -60;
+"@MMK_R_T" = -100;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -80;
+"@MMK_R_J" = -80;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -140;
+"@MMK_R_J" = -190;
+"@MMK_R_O" = -120;
+"@MMK_R_hyphen" = -60;
+"@MMK_R_iwide" = 110;
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -120;
+"@MMK_R_s" = -140;
+"@MMK_R_u" = -120;
+"@MMK_R_w" = -140;
+"@MMK_R_x" = -100;
+"@MMK_R_y" = -140;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -130;
+"@MMK_R_J" = -50;
+"@MMK_R_M" = -60;
+"@MMK_R_iwide" = 80;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -40;
+"@MMK_R_u" = -40;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -100;
+"@MMK_R_J" = -60;
+"@MMK_R_iwide" = 90;
+"@MMK_R_o" = -60;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -50;
+"@MMK_R_u" = -70;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 120;
+"@MMK_R_T" = 140;
+"@MMK_R_W" = 140;
+"@MMK_R_X" = 140;
+"@MMK_R_Y" = 140;
+"@MMK_R_Z" = 140;
+"@MMK_R_asterisk" = 90;
+"@MMK_R_exclam" = 100;
+"@MMK_R_iwide" = 60;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteright" = 110;
+"@MMK_R_quotesingle" = 110;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = 0;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 50;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -30;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -60;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 30;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 30;
+"@MMK_R_T" = 110;
+"@MMK_R_W" = 80;
+"@MMK_R_Y" = 90;
+"@MMK_R_i" = 30;
+"@MMK_R_iwide" = 180;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -70;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -30;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -40;
+"@MMK_R_Y" = -80;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_space" = 0;
+};
+"@MMK_L_r" = {
+"@MMK_R_T" = -60;
+"@MMK_R_f" = 30;
+"@MMK_R_hyphen" = -50;
+"@MMK_R_o" = -70;
+"@MMK_R_period" = -90;
+"@MMK_R_x" = 20;
+"@MMK_R_y" = 20;
+"@MMK_R_z" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -140;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -40;
+"@MMK_R_Y" = -70;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -140;
+"@MMK_R_period" = -60;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -100;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -60;
+"@MMK_R_T" = -140;
+"@MMK_R_period" = -60;
+};
+};
+"79A30733-E9D0-406C-A133-0F4AF5F1D98D" = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -152;
+"@MMK_R_W" = -150;
+"@MMK_R_Y" = -128;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -68;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 54;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 206;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -134;
+"@MMK_R_w" = -112;
+"@MMK_R_y" = -54;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -68;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -72;
+"@MMK_R_T" = -80;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -96;
+"@MMK_R_J" = -96;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -152;
+"@MMK_R_J" = -166;
+"@MMK_R_O" = -92;
+"@MMK_R_hyphen" = -76;
+"@MMK_R_iwide" = 126;
+"@MMK_R_n" = -88;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -96;
+"@MMK_R_s" = -108;
+"@MMK_R_u" = -96;
+"@MMK_R_w" = -112;
+"@MMK_R_x" = -76;
+"@MMK_R_y" = -116;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -158;
+"@MMK_R_J" = -90;
+"@MMK_R_M" = -68;
+"@MMK_R_S" = -20;
+"@MMK_R_iwide" = 92;
+"@MMK_R_n" = -16;
+"@MMK_R_o" = -38;
+"@MMK_R_period" = -56;
+"@MMK_R_s" = -24;
+"@MMK_R_u" = -64;
+"@MMK_R_w" = -20;
+"@MMK_R_x" = -20;
+};
+"@MMK_L_X" = {
+"@MMK_R_iwide" = 40;
+"@MMK_R_o" = -8;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -128;
+"@MMK_R_J" = -108;
+"@MMK_R_iwide" = 106;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -76;
+"@MMK_R_period" = -112;
+"@MMK_R_s" = -42;
+"@MMK_R_u" = -74;
+"@MMK_R_w" = -24;
+"@MMK_R_y" = -24;
+"@MMK_R_z" = -12;
+};
+"@MMK_L_Z" = {
+"@MMK_R_iwide" = 52;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 168;
+"@MMK_R_T" = 196;
+"@MMK_R_W" = 196;
+"@MMK_R_X" = 196;
+"@MMK_R_Y" = 196;
+"@MMK_R_Z" = 196;
+"@MMK_R_asterisk" = 126;
+"@MMK_R_backslash" = 32;
+"@MMK_R_braceright" = 52;
+"@MMK_R_bracketright" = 88;
+"@MMK_R_exclam" = 140;
+"@MMK_R_iwide" = 36;
+"@MMK_R_parenright" = 88;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteleft" = 52;
+"@MMK_R_quoteright" = 154;
+"@MMK_R_quotesingle" = 154;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = -8;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 38;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -50;
+"@MMK_R_period" = -96;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -76;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 38;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 34;
+"@MMK_R_T" = 126;
+"@MMK_R_W" = 92;
+"@MMK_R_X" = 40;
+"@MMK_R_Y" = 106;
+"@MMK_R_Z" = 52;
+"@MMK_R_i" = 38;
+"@MMK_R_iwide" = 164;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -82;
+"@MMK_R_W" = -24;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -38;
+"@MMK_R_X" = -8;
+"@MMK_R_Y" = -76;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -96;
+"@MMK_R_W" = -56;
+"@MMK_R_Y" = -112;
+"@MMK_R_y" = -84;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_space" = 0;
+};
+"@MMK_L_r" = {
+"@MMK_R_T" = -36;
+"@MMK_R_f" = 46;
+"@MMK_R_hyphen" = -38;
+"@MMK_R_o" = -50;
+"@MMK_R_period" = -94;
+"@MMK_R_x" = 40;
+"@MMK_R_y" = 40;
+"@MMK_R_z" = 40;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -108;
+"@MMK_R_W" = -24;
+"@MMK_R_Y" = -48;
+};
+"@MMK_L_taltcaron" = {
+"@MMK_R_H" = 43;
+"@MMK_R_T" = 59;
+"@MMK_R_W" = 59;
+"@MMK_R_X" = 59;
+"@MMK_R_Y" = 59;
+"@MMK_R_Z" = 59;
+"@MMK_R_asterisk" = 20;
+"@MMK_R_exclam" = 27;
+"@MMK_R_quoteright" = 35;
+"@MMK_R_quotesingle" = 35;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -96;
+"@MMK_R_W" = -64;
+"@MMK_R_Y" = -74;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -112;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -24;
+"@MMK_R_period" = -84;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -76;
+"@MMK_R_W" = -20;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -68;
+"@MMK_R_T" = -116;
+"@MMK_R_Y" = -24;
+"@MMK_R_period" = -84;
+};
+"@MMK_L_z" = {
+"@MMK_R_Y" = -12;
+};
+};
+m004 = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -170;
+"@MMK_R_W" = -180;
+"@MMK_R_Y" = -170;
+"@MMK_R_w" = -80;
+"@MMK_R_y" = -80;
+};
+"@MMK_L_C" = {
+"@MMK_R_iwide" = 100;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -80;
+"@MMK_R_iwide" = 140;
+"@MMK_R_period" = -80;
+};
+"@MMK_L_H" = {
+"@MMK_R_asterisk" = 50;
+"@MMK_R_iwide" = 90;
+"@MMK_R_quoteleft" = 50;
+"@MMK_R_quoteright" = 50;
+"@MMK_R_quotesingle" = 50;
+};
+"@MMK_L_Iwide" = {
+"@MMK_R_Iwide" = 290;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_W" = -90;
+"@MMK_R_Y" = -80;
+"@MMK_R_w" = -70;
+"@MMK_R_y" = -60;
+};
+"@MMK_L_M" = {
+"@MMK_R_W" = -80;
+};
+"@MMK_L_O" = {
+"@MMK_R_J" = -90;
+"@MMK_R_T" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -120;
+"@MMK_R_J" = -120;
+};
+"@MMK_L_S" = {
+"@MMK_R_W" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -170;
+"@MMK_R_J" = -130;
+"@MMK_R_O" = -50;
+"@MMK_R_hyphen" = -100;
+"@MMK_R_iwide" = 150;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -120;
+"@MMK_R_period" = -60;
+"@MMK_R_s" = -60;
+"@MMK_R_u" = -60;
+"@MMK_R_w" = -70;
+"@MMK_R_x" = -40;
+"@MMK_R_y" = -80;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -200;
+"@MMK_R_J" = -150;
+"@MMK_R_M" = -80;
+"@MMK_R_S" = -50;
+"@MMK_R_iwide" = 110;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -50;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -60;
+"@MMK_R_u" = -100;
+"@MMK_R_w" = -50;
+"@MMK_R_x" = -50;
+};
+"@MMK_L_X" = {
+"@MMK_R_iwide" = 100;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -170;
+"@MMK_R_J" = -180;
+"@MMK_R_iwide" = 130;
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -100;
+"@MMK_R_period" = -160;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -80;
+"@MMK_R_w" = -60;
+"@MMK_R_y" = -60;
+"@MMK_R_z" = -30;
+};
+"@MMK_L_Z" = {
+"@MMK_R_iwide" = 130;
+};
+"@MMK_L_altcaron" = {
+"@MMK_R_H" = 240;
+"@MMK_R_T" = 280;
+"@MMK_R_W" = 280;
+"@MMK_R_X" = 280;
+"@MMK_R_Y" = 280;
+"@MMK_R_Z" = 280;
+"@MMK_R_asterisk" = 180;
+"@MMK_R_backslash" = 80;
+"@MMK_R_braceright" = 130;
+"@MMK_R_bracketright" = 220;
+"@MMK_R_exclam" = 200;
+"@MMK_R_parenright" = 220;
+"@MMK_R_question" = 80;
+"@MMK_R_quoteleft" = 130;
+"@MMK_R_quoteright" = 220;
+"@MMK_R_quotesingle" = 220;
+};
+"@MMK_L_c" = {
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_j" = 20;
+};
+"@MMK_L_f" = {
+"@MMK_R_f" = -80;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_hyphen" = {
+"@MMK_R_T" = -100;
+};
+"@MMK_L_i" = {
+"@MMK_R_iwide" = 50;
+};
+"@MMK_L_iwide" = {
+"@MMK_R_H" = 40;
+"@MMK_R_T" = 150;
+"@MMK_R_W" = 110;
+"@MMK_R_X" = 100;
+"@MMK_R_Y" = 130;
+"@MMK_R_Z" = 130;
+"@MMK_R_i" = 50;
+"@MMK_R_iwide" = 140;
+};
+"@MMK_L_n" = {
+"@MMK_R_T" = -100;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -100;
+};
+"@MMK_L_o" = {
+"@MMK_R_T" = -120;
+"@MMK_R_W" = -50;
+"@MMK_R_X" = -20;
+"@MMK_R_Y" = -100;
+};
+"@MMK_L_period" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -80;
+"@MMK_R_Y" = -160;
+"@MMK_R_y" = -120;
+};
+"@MMK_L_r" = {
+"@MMK_R_f" = 70;
+"@MMK_R_hyphen" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -100;
+"@MMK_R_x" = 70;
+"@MMK_R_y" = 70;
+"@MMK_R_z" = 70;
+};
+"@MMK_L_s" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_taltcaron" = {
+"@MMK_R_H" = 108;
+"@MMK_R_T" = 148;
+"@MMK_R_W" = 148;
+"@MMK_R_X" = 148;
+"@MMK_R_Y" = 148;
+"@MMK_R_Z" = 148;
+"@MMK_R_asterisk" = 50;
+"@MMK_R_exclam" = 68;
+"@MMK_R_quoteright" = 88;
+"@MMK_R_quotesingle" = 88;
+};
+"@MMK_L_u" = {
+"@MMK_R_T" = -60;
+"@MMK_R_W" = -100;
+"@MMK_R_Y" = -80;
+};
+"@MMK_L_w" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -70;
+"@MMK_R_W" = -50;
+"@MMK_R_Y" = -60;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_x" = {
+"@MMK_R_T" = -40;
+"@MMK_R_W" = -50;
+};
+"@MMK_L_y" = {
+"@MMK_R_A" = -80;
+"@MMK_R_T" = -80;
+"@MMK_R_Y" = -60;
+"@MMK_R_period" = -120;
+};
+"@MMK_L_z" = {
+"@MMK_R_Y" = -30;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright 2024 The Urbanist Project Authors (https://github.com/coreyhu/Urbanist)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = ENG;
+value = "Urbanist is an open source low-contrast, geometric sans serif inspired by Modernist typography.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Corey Hu";
+}
+);
+},
+{
+key = designerURL;
+value = "https://www.coreyhu.com";
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Corey Hu";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://www.coreyhu.com";
+},
+{
+key = vendorID;
+value = KERN;
+}
+);
+settings = {
+fontType = variable;
+keepAlternatesTogether = 1;
+previewRemoveOverlap = 0;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 2000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"10BC12B3-5274-42E3-B5BC-F74F362F0DF4" = {
+};
+};
+};
+versionMajor = 1;
+versionMinor = 340;
+}

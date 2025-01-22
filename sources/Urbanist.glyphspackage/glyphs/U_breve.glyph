@@ -1,0 +1,86 @@
+{
+glyphname = Ubreve;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "9AF1F7D9-E035-453E-B2A8-46DE370997D0";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (58,400);
+ref = brevecomb;
+}
+);
+width = 1260;
+},
+{
+layerId = "10BC12B3-5274-42E3-B5BC-F74F362F0DF4";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (87,400);
+ref = brevecomb;
+}
+);
+width = 1318;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (113,400);
+ref = brevecomb;
+}
+);
+width = 1259;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (142,400);
+ref = brevecomb;
+}
+);
+width = 1317;
+},
+{
+layerId = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (125,400);
+ref = brevecomb;
+}
+);
+width = 1282;
+},
+{
+layerId = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (70,400);
+ref = brevecomb;
+}
+);
+width = 1283;
+}
+);
+unicode = 364;
+}
