@@ -1,5 +1,5 @@
 {
-.appVersion = "3228";
+.appVersion = "3340";
 .formatVersion = 3;
 axes = (
 {
@@ -335,7 +335,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 iconName = Light_SemiExtended;
@@ -418,7 +423,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 id = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
@@ -499,7 +509,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 iconName = Bold_SemiExtended;
@@ -582,7 +597,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 iconName = Light_SemiExtended;
@@ -665,7 +685,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 id = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
@@ -747,7 +772,12 @@ value = 50;
 },
 {
 name = "prep Table Assembly";
-value = "PUSHW[ ]	/* 1 value pushed */\012511 \012SCANCTRL[ ]	/* ScanConversionControl */\012PUSHB[ ]	/* 1 value pushed */\0124 \012SCANTYPE[ ]	/* ScanType */";
+value = "PUSHW[ ]	/* 1 value pushed */
+511 
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+4 
+SCANTYPE[ ]	/* ScanType */";
 }
 );
 iconName = Bold_SemiExtended;
@@ -76012,73 +76042,6 @@ width = 740;
 }
 );
 unicode = 45;
-},
-{
-glyphname = softhyphen;
-kernLeft = hyphen;
-kernRight = hyphen;
-lastChange = "2023-12-28 07:56:48 +0000";
-layers = (
-{
-layerId = "10BC12B3-5274-42E3-B5BC-F74F362F0DF4";
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 740;
-},
-{
-layerId = "9AF1F7D9-E035-453E-B2A8-46DE370997D0";
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 740;
-},
-{
-layerId = m003;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 740;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 740;
-},
-{
-layerId = "79A30733-E9D0-406C-A133-0F4AF5F1D98D";
-shapes = (
-{
-alignment = -1;
-ref = hyphen;
-}
-);
-width = 740;
-},
-{
-layerId = "6E59A8CF-B173-4F95-974A-A2EBEECFA9BB";
-shapes = (
-{
-alignment = -1;
-ref = hyphen;
-}
-);
-width = 740;
-}
-);
-metricLeft = hyphen;
-metricRight = hyphen;
-unicode = 173;
 },
 {
 glyphname = endash;
